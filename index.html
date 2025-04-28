@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Configuración básica de la página -->
+  <meta charset="UTF-8" /> <!-- Codificación de caracteres -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/> <!-- Hace que la página sea responsive -->
+  <title>INVICTUS Gym</title> <!-- Título de la página que aparece en la pestaña del navegador -->
+  <link rel="stylesheet" href="styles.css" /> <!-- Vincula el archivo CSS externo -->
+</head>
+<body>
+
+  <!-- NAV -->
+  <header>
+    <nav class="navbar">
+      <!-- Logo del gimnasio con eslogan -->
+      <div class="logo">
+        <img src="images/logoinvictus.png" alt="Invictus Gym Logo" style="display: block; margin: 0 auto; max-width: 150px;" />
+        <span>Desafía tu cuerpo</span>
+      </div>
+      <!-- Menú de navegación -->
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#why">Why Join Us?</a></li>
+        <li><a href="#plan">Plan</a></li>
+        <li><a href="#coaches">Coaches</a></li>
+        <li><a href="#location">Visit our Gym</a></li>
+        <li><a href="#register" class="register-btn">Register</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-text">
+      <!-- Mensaje principal de bienvenida -->
+      <h1>Start a better shape of you!<br><span>Come Join Us!</span></h1>
+      <button class="cta">Learn More</button> <!-- Botón de llamada a la acción -->
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about">
+    <h2>STAMINA GYM FOR MAN & WOMAN</h2> <!-- Título de la sección -->
+    <div class="about-content">
+      <div class="about-text">
+        <!-- Descripción del gimnasio -->
+        <p>
+          Stamina Gym Fitness Center provides proper training and conditioning for members who want to improve and transform their body with Program depend on the body composition.
+        </p>
+        <h3>What we offer:</h3>
+        <!-- Lista de servicios ofrecidos -->
+        <div class="offers">
+          <div class="offer-box">24/7 Chat</div>
+          <div class="offer-box">1 on 1 Coaching</div>
+          <div class="offer-box">Nutrition Plan Guide</div>
+        </div>
+      </div>
+      <!-- Imagen representativa -->
+      <div class="about-img">
+        <img src="images/whatweoffer.jpg" alt="Man posing" />
+      </div>
+    </div>
+  </section>
+
+  <!-- PLAN -->
+  <section id="plan" class="plan">
+    <h2>Our Plan</h2> <!-- Título de la sección -->
+    <p>Join our membership</p> <!-- Descripción breve -->
+    <!-- Tarjetas con los diferentes planes -->
+    <div class="plan-cards">
+      <img src="images/ourplan.jpg" alt="Man posing" />
+    </div>
+  </section>
+
+  <!-- COACHES -->
+  <section id="coaches" class="coaches">
+    <h2>Coaches</h2> <!-- Título de la sección -->
+    <div class="coach-list">
+      <!-- Lista de entrenadores -->
+      <div class="coach">
+        <img src="images/coach-esteban.jpg" alt="Coach Esteban">
+        <h3>Coach Esteban</h3>
+        <p>Especializado en Deportistas</p>
+      </div>
+      <div class="coach">
+        <img src="images/coach-andrea.jpg" alt="Coach Andrea">
+        <h3>Coach Andrea</h3>
+        <p>Especializada en Recuperación</p>
+      </div>
+      <div class="coach">
+        <img src="images/coach-miguel.jpg" alt="Coach Miguel">
+        <h3>Coach Miguel</h3>
+        <p>Especializado en Adulto Mayor</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION -->
+  <section id="location" class="location">
+    <h2>Visit Our Gym</h2> <!-- Título de la sección -->
+    <div class="location-info">
+      <!-- Mapa de ubicación -->
+      <div class="map">
+        <img src="images/map.png" alt="Map" />
+      </div>
+      <!-- Información de contacto -->
+      <div class="contact">
+        <p><strong>Address:</strong> Politecnico Grancolombiano</p>
+        <p><strong>Email:</strong> xxxxx@yahoo.com</p>
+        <p><strong>Contact Number:</strong> 57321XXXXXXX</p>
+        <!-- Enlaces a redes sociales -->
+        <div class="socials">
+          <a href="#">FB</a>
+          <a href="#">IG</a>
+          <a href="#">WA</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REGISTER -->
+  <section id="register" class="register">
+    <h2>Register</h2> <!-- Título de la sección -->
+    <!-- Formulario de registro -->
+    <form>
+      <label for="lastName">Last Name</label>
+      <input type="text" id="lastName" name="lastName" required />
+      <label for="firstName">First Name</label>
+      <input type="text" id="firstName" name="firstName" required />
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required />
+      <label for="phone">Phone</label>
+      <input type="tel" id="phone" name="phone" required />
+      <!-- Botones del formulario -->
+      <div class="form-buttons">
+        <button type="submit">Submit</button>
+        <button type="button" id="clearBtn">Clear Entries</button>
+      </div>
+    </form>
+    <!-- Galería de progreso -->
+    <div class="progress">
+      <h3>Customer's Progress</h3>
+      <div class="progress-gallery">
+        <img src="images/customerprogress.jpg" alt="Progress 1">
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-links">
+      <!-- Enlaces del pie de página -->
+      <div>
+        <h4>GYM</h4>
+        <ul>
+          <li><a href="#why">Why Join Us</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#plan">Plan</a></li>
+          <li><a href="#coaches">Coaches</a></li>
+          <li><a href="#register">Inquiry</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>MEMBERS</h4>
+        <ul>
+          <li><a href="#">FAQs</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Vincula el archivo JavaScript externo -->
+  <script src="script.js"></script>
+</body>
+</html>
